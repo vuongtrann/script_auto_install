@@ -9,7 +9,7 @@ set -e
 sh install-apache2.sh
 
 #install mysql
-sh install-install-mysql.sh
+sh install-mysql.sh
 
 #install php
 sh install-php.sh
