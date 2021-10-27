@@ -9,7 +9,7 @@ set -e
 sh install-apache2.sh
 
 #install mysql
-sh install-sql.sh
+sh install-install-mysql.sh
 
 #install php
 sh install-php.sh
@@ -17,4 +17,6 @@ sh install-php.sh
 #install phpmyadmin
 sh intall-phpmyadmin.sh
 
-echo "Cai dat hoan tat !"
+echo "###############################################################"
+echo "########## BAN DA CAI DAT THANH CONG LAMP + MARIADB ###########"
+echo "###############################################################"
